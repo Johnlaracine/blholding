@@ -1,0 +1,40 @@
+<!DOCTYPE ALPHAhtml><ALPHAhtml<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sceau HTML</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .seal {
+            width: 5cm;
+            height: 5cm;
+            border: 0.05cm solid black;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+        }
+        .seal-text {
+            text-align: center;
+            font-family: Arial, sans-serif;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="seal">
+        <div class="seal-text">
+            BLHoldingGroupLeader<br>PDG.*.*
+        </div>
+    </div>
+</body>
+</html>
+ALPHAhtml>
